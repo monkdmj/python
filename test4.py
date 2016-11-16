@@ -18,6 +18,7 @@ def openfile3():
         print('test')
         print(f.readlines())
 
+
 '''
 3425435435
 
@@ -31,7 +32,9 @@ def openfile4():
         print(f.read(4))
         print(f.read(4))
         print(f.read(4))
-'''`
+
+
+'''
 3425
 4354
 35
@@ -44,6 +47,8 @@ def openfile5():
         for line in f.readlines():
             print(line.strip())
             print(line)
+
+
 '''
 3425435435
 3425435435
