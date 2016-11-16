@@ -1,3 +1,13 @@
+"""[summary]
+
+[description]
+
+Variables:
+    james {[type]} -- [description]
+    print("hhh") {[type]} -- [description]
+"""
+
+
 class Athlete:
 
     def __init__(self, aname, abob=None, atime=[]):
@@ -10,6 +20,16 @@ class Athlete:
 
 
 def get_data(filename):
+    """[summary]
+
+    [description]
+
+    Arguments:
+        filename {[type]} -- [description]
+
+    Returns:
+        [type] -- [description]
+    """
     try:
         with open(filename, 'r') as f:
             dat = f.readline()

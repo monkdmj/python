@@ -1,4 +1,14 @@
+"""[summary]
+
+[description]
+"""
+
+
 def test_iter():
+    """[summary]
+
+    [description]
+    """
     it = iter(range(20))
     while True:
         try:
@@ -27,6 +37,16 @@ def char2num(s):
 
 
 def str2int(s):
+    """[summary]
+
+    [description]
+
+    Arguments:
+        s {[type]} -- [description]
+
+    Returns:
+        [type] -- [description]
+    """
     from functools import reduce
     # return reduce(fn,lirst(map(char2num,s)))
     # return reduce(lambda x, y: x * 10 + y, map(char2num, s))
